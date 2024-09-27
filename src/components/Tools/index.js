@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import styles from './index.module.css';
 import { COLORS, MENU_ITEMS } from '@/constant';
-import cn from 'classNames';
+import cn from 'classnames';
 import { useDispatch } from 'react-redux';
 import { changeColor, changeBrushSize } from '@/slice/toolsSlice';
 import { socket } from "@/socket";

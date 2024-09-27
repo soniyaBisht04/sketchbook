@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import cn from 'classNames';
+import cn from 'classnames';
 import { useSelector } from 'react-redux';
 import { faPencil, faEraser, faRotateRight, faRotateLeft, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 import styles from './index.module.css';
